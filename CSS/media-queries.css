@@ -1,37 +1,47 @@
-
 h1 {
-    text-align: center;
-    font-family: Arial;
-}
-body {
-
-}
-.nav-links {
-    text-align: center;
-    font-family: Arial;
-    list-style: none;
+    font-size: 50px;
+    margin-bottom: 40px;
 }
 .alert-info {
-    text-align: center;
-    border: 1px solid lightgray;
+    background-color: rgb(214, 254, 254);
+    border: 2px solid darkgray;
+    padding: 10px;
+    color: black;
     text-decoration: none;
+}
+.alert-info a {
+    color: black;
+    text-decoration: none;
+    font-size: small;
+}
+body {
+    text-align: center;
+    width: 339px;
+    margin-left: auto;
+    margin-right: auto;
     font-family: Arial;
-
 }
-#main {
+ul {
+    list-style: none;
+    padding: 0;
+}
+li {
+    background-color: darkgray;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.header-img>img {
+    width: 339px;
+    height: 224px;
+}
+section.main {
     text-align: left;
 }
-
-.header-img {
-
-}
-.main {
+section.sub-section {
     text-align: left;
+    font-style: italic;
 }
-
-.sub-section {
-
-}
-#social-media-links {
-
+footer {
+    text-align: left;
+    font-size: small;
 }
