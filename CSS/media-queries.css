@@ -1,6 +1,9 @@
+/*Mobile Layout*/
 h1 {
     font-size: 50px;
     margin-bottom: 40px;
+    position: relative;
+    bottom: 20px;
 }
 .alert-info {
     background-color: rgb(214, 254, 254);
@@ -44,4 +47,50 @@ section.sub-section {
 footer {
     text-align: left;
     font-size: small;
+}
+
+/*Desktop*/
+@media screen and (min-width:992px) {
+    .hidden-on-desktop {
+        display: none;
+    }
+    body {
+        width: 100%;
+    }
+    li {
+        float: right;
+        padding: 5px;
+        background-color: white;
+    }
+    h1 {
+        font-size: 50px;
+        float: left;
+
+    }
+
+    section.main {
+        text-align: left;
+        float: left;
+        width: 75%;
+
+    }
+    section.sub-section {
+        text-align: left;
+        float: left;
+        width: 25%;
+        font-style: italic;
+    }
+    .header-img>img {
+        width: 100%;
+        height: auto;
+
+    }
+    footer {
+        text-align: left;
+        font-size: small;
+    }
+    .nav-links {
+
+        color: black;
+    }
 }
